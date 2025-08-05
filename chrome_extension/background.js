@@ -18,7 +18,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 
     try {
       // Call our simple server
-      const response = await fetch("http://acbuy.cnicholson.hackclub.app/search", {
+      const response = await fetch("https://acbuy.cnicholson.hackclub.app/search", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
