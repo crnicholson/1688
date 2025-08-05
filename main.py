@@ -3,7 +3,7 @@
 
 """
 Very simple server with one endpoint:
-POST /search - accepts image URL and prints search r    app.run(host='127.0.0.1', port=5001, debug=True)sults
+POST /search - accepts image URL and prints search r    app.run(host='127.0.0.1', port=44171, debug=True)sults
 """
 
 import os
