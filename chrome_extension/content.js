@@ -1,7 +1,7 @@
 // Simple content script for 1688 image search extension
 // This script runs on all web pages and provides additional functionality if needed
 
-console.log("🎯 Simple 1688 Search content script loaded!");
+console.log("🎯 Simple ACBuy Search content script loaded!");
 
 // Optional: Add a subtle indicator when hovering over images
 // This helps users know they can right-click to search

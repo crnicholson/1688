@@ -59,7 +59,11 @@ def search_1688(image_path):
         print(f"✅ Image uploaded successfully! Image ID: {image_id}")
 
         # Generate search URL
-        search_url = f"https://s.1688.com/youyuan/index.htm?tab=imageSearch&imageId={image_id}&imageIdList={image_id}"
+        # search_url = f"https://s.1688.com/youyuan/index.htm?tab=imageSearch&imageId={image_id}&imageIdList={image_id}"
+
+        search_url = (
+            f"https://acbuy.com/search-list?searchType=picture&imageId={image_id}"
+        )
 
         print("=" * 80)
         print("🎯 SEARCH RESULTS:")

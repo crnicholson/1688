@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Simple 1688 Image Search",
+    "name": "Simple ACBuy Image Search",
     "version": "1.0",
-    "description": "Right-click on any image to search for similar products on 1688",
+    "description": "Right-click on any image to search for similar products on ACBuy",
     "permissions": [
         "contextMenus",
         "activeTab",

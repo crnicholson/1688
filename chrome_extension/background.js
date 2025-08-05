@@ -4,7 +4,7 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "searchImage",
-    title: "Search on 1688",
+    title: "Search on ACBuy",
     contexts: ["image"],
   });
   console.log("🚀 Simple 1688 Search extension installed!");
