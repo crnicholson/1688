@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-Very simple server with one endpoint:
-POST /search - accepts image URL and prints search r    app.run(host='127.0.0.1', port=44171, debug=True)sults
-"""
-
 import os
 import sys
 import tempfile
