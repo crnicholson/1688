@@ -144,4 +144,4 @@ if __name__ == "__main__":
     print("\n💡 The search results will be printed in the terminal!")
     print("=" * 80)
 
-    app.run(host="127.0.0.1", port=5001, debug=True)
+    app.run(host="127.0.0.1", port=44171, debug=True)
